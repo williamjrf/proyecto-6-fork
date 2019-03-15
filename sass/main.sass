@@ -35,7 +35,10 @@
         margin: 0
         padding: 0  
         .box_work_left
-            padding-left: 45px      
+            padding-left: 45px  
+        .box_work_left_mobile
+            @media screen and (max-width:600px)
+                padding-left: 45px  
         .box
             position: absolute
             text-align: left
@@ -56,19 +59,24 @@
             h2 
                 font-size: 20px
                 letter-spacing: 0px
-                padding-left: 50px
-                color: white
+                padding: 5px 9px 9px 9px
+                margin-left: 50px
+                color: black
                 position: absolute
                 bottom: 17px
+                background-color: white
+                
             h3 
                 font-size: 11px
                 text-transform: uppercase
                 font-weight: 100
                 letter-spacing: 1px
-                padding-left: 50px
-                color: white
+                padding: 5px 9px 9px 9px
+                margin-left: 50px
+                color: black
                 position: absolute
                 bottom: 0
+                background-color: white
         .image-work
             opacity: 1
 
@@ -102,6 +110,4 @@
         background-color: transparent
         overflow-y: hidden
         bottom: 20px
-        
-    .z-depth-5, .modal
-        box-shadow: none
+
