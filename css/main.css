@@ -1,23 +1,20 @@
 .my_navbar2 {
   max-width: 80px;
-  background-color: #353535;
+  background-color: #f5c62e;
   height: 100vh;
   position: fixed;
   z-index: 100;
 }
-.my_navbar2 .logo {
-  width: 90px;
-  height: 90px;
-  margin: 30px 0 0 30px;
-  border-radius: 50px;
-  background-color: #ffffff;
-  border: 7px solid transparent;
-}
 .my_navbar2 .logo .img-logo {
-  width: 55px;
-  margin: 10px auto 0 auto;
+  width: 100px;
+  border: #ffffff solid 3px;
+  margin: 10px 0 0 35px;
   display: flex;
-  opacity: 0.3;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
 }
 .my_navbar2 .header_icon {
   position: absolute;
@@ -37,11 +34,17 @@
 
 .my-container {
   width: 100%;
-  height: 100vh;
+  height: 50vh;
 }
 .my-container .container_works {
   margin: 0;
   padding: 0;
+  filter: grayscale(90%);
+  -webkit-filter: grayscale(90%);
+}
+.my-container .container_works:hover {
+  filter: grayscale(0);
+  -webkit-filter: grayscale(0);
 }
 .my-container .container_works .box_work_left {
   padding-left: 45px;
@@ -70,11 +73,13 @@
   bottom: 0;
 }
 .my-container .container_works .box h2 {
-  font-size: 20px;
-  letter-spacing: 0px;
+  font-size: 17px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
   padding: 5px 9px 9px 9px;
   margin-left: 50px;
-  color: black;
+  color: #3d3d3d;
   position: absolute;
   bottom: 17px;
   background-color: white;
@@ -86,7 +91,7 @@
   letter-spacing: 1px;
   padding: 5px 9px 9px 9px;
   margin-left: 50px;
-  color: black;
+  color: #797979;
   position: absolute;
   bottom: 0;
   background-color: white;
@@ -97,30 +102,14 @@
 .my-container .work1 {
   background-color: #9999a7;
 }
-.my-container .work1 :hover {
-  background-color: #9999a7;
-  opacity: 0.7;
-}
 .my-container .work2 {
   background-color: #e9989c;
-}
-.my-container .work2:hover {
-  background-color: #e9989c;
-  opacity: 0.7;
 }
 .my-container .work3 {
   background-color: #8fb19d;
 }
-.my-container .work3:hover {
-  background-color: #8fb19d;
-  opacity: 0.7;
-}
 .my-container .work4 {
   background-color: #404a54;
-}
-.my-container .work4:hover {
-  background-color: #404a54;
-  opacity: 0.7;
 }
 .my-container .image-work {
   margin-bottom: -6px;
@@ -130,6 +119,7 @@
   background-color: transparent;
   overflow-y: hidden;
   bottom: 20px;
+  box-shadow: none;
 }
 
 /*# sourceMappingURL=main.css.map */
