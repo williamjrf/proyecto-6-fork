@@ -1,6 +1,6 @@
 .my_navbar2 {
   max-width: 80px;
-  background-color: #f5c62e;
+  background-color: hsl(155, 91%, 57%);
   height: 100vh;
   position: fixed;
   z-index: 100;
